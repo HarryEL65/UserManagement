@@ -1,0 +1,10 @@
+<a href="#" class="list-group-item clearfix" (click)="onSelected()">
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{ user.firstName }} {{user.lastName}}</h4>
+    <p class="list-group-item-text">{{ user.email }}</p>
+  </div>
+  <div class="pull-right">
+    <img [src]="avatarPath + user.picturePath" alt="{{ user.firstName }} + {{user.lastName}}}" class="img-responsive" style="max-height: 50px;">
+    <button type="button" class="btn btn-danger delete"  (click)="remove()">x</button>
+  </div>
+</a>

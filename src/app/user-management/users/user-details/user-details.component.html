@@ -1,0 +1,42 @@
+<!-- <div class="row">
+    <div class="col-xs-12">
+      <img
+        [src]="avatarPath + user.picturePath"
+        alt="{{ user.firstName }} {{user.lastName}}"
+        class="img-responsive"
+        style="max-height: 300px;">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>{{ user.firstName }}  {{user.lastName}} </h1>
+    </div>
+  </div>
+ 
+  <div class="row">
+    <div class="col-xs-12">
+      {{ user.email }}
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12">
+        {{ user.age }}
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12">
+        {{ user.id }}
+      </div>
+  </div> -->
+
+
+  <!-- Cards -->
+
+  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" [src]="avatarPath + user.picturePath" alt="{{ user.firstName }} {{user.lastName}}">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.firstName }} {{user.lastName}}</h5>
+        <p class="card-text">{{user.description}}</p>
+        <a href="#" class="btn btn-primary">More about me</a>
+      </div>
+  </div>

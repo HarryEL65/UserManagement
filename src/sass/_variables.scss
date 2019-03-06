@@ -1,0 +1,67 @@
+$fa-font-path:"~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome';
+// Font family
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !default;
+
+// Color palette
+$base-white: #FFFFFF;
+$base-black: #000000;
+$base-dark-blue: #2F3545; 					// Framework cc-1
+$base-dark-blue-secondary: #333A4D; 		// Framework cc-2 
+$base-dark-blue-primary: #3E445C; 			// Main Text Framework cc-3
+$base-gray: #9EB1C2; 						// Table Header Text, Buttons Text
+$base-gray-secondary: #CED7E0; 				// Buttons Stroke color
+$base-light-gray: #EBEFF2; 					// Disable
+$base-light-blue: #37B6E5; 					// Primary color
+$base-light-green: #43BA8A; 				// accepted
+$base-light-purple: #7269E4; // #8D69E4 	// Pending Acceptence
+$base-orange: #FF8000; 						// Testing
+$base-light-red: #EE5858; 					// Failed
+
+$selectedRowColor: #FCFCFD;
+// $selectedRowColor: aliceblue;
+$dark-gray: #7E91A1;
+$nav-container-bckgrd: #34495e;
+
+// End of color palette
+
+// Additional color variables
+$base-beige: #F7F2EC;
+$base-dark-blue-black: #41404F;
+$cyan-hover-color: #36ABD6;
+$light-gray: #516D76;
+
+// End of additional color variables
+
+//====== status colors ======
+$acceptance: $base-light-purple;
+$testing:    $base-orange;
+$failed:     $base-light-red;
+$accepted:   $base-light-green;
+$loaded:     $base-light-green;
+$canceled:   $base-dark-blue-primary;
+$passed:     $base-light-green;
+$running:    $base-orange;
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+// Start with assigning color names to specific hex values.
+$white:  #fff !default;
+$black:  #000 !default;
+$red:    #d9534f !default;
+$orange: #f0ad4e !default;
+$yellow: #ffd500 !default;
+$green:  #5cb85c !default;
+$blue:   #0275d8 !default;
+$teal:   #5bc0de !default;
+$pink:   #ff5b77 !default;
+$purple: #613d7c !default;
+
+
+
+
+
+

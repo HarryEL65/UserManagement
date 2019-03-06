@@ -1,0 +1,53 @@
+@import "./variables";
+// @import "~sass/components/tooltip";
+// @import "~sass/components/ngselect";
+
+
+@mixin margin-content {
+    margin: $margin-top-bottom $margin-left-right;
+}
+
+
+
+@mixin etl-font-bold($fontSize: 12px) {
+    font: {
+        size: $fontSize;
+        weight: 700;
+    }
+}
+
+@mixin etl-font-regular($fontSize: 14px) {
+    font: {
+        size: $fontSize;
+        weight: 400;
+    }
+}
+
+@mixin etl-font-semi-bold($fontSize: 20px) {
+    font: {
+	    size: $fontSize;
+        weight: 600;
+    }
+}
+
+
+// ---------mixins for validation-------------
+
+@mixin invalid-field{
+    // display a border on empyt input required field
+    // that a least has been clicked
+    .ng-invalid.ng-touched {
+        border: 1px solid $login-invalid-input !important;   
+    }
+}
+ 
+
+@mixin disable-link {
+    .isDisabled {
+        color: currentColor;
+        cursor: not-allowed;
+        opacity: 0.5;
+        text-decoration: none;
+      }
+}
+

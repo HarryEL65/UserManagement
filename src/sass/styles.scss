@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+ 
+
+@import "~font-awesome/css/font-awesome.css";
+
+// // or
+@import "~bootstrap/scss/bootstrap";
+
+  
+@import './variables';
+@import './mixins';
+// @import './components/buttons';
+// @import './components/modals';
+// @import './components/tables';
+// @import './components/ngselect';
+
+@import './base/typography';
+
+
+
+
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 2000px;
+  }
+}

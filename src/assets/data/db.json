@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "password": "dksjfkldsj",
+      "email": "John@gmail.com",
+      "age": 45,
+      "picturePath":"JohnDoe.png"
+    },
+    {
+      "id": "2",
+      "firstName": "Arthur",
+      "lastName": "Tony",
+      "password": "dksjfkldsj",
+      "email": "ArthurTony@gmail.com",
+      "age": 50,
+      "picturePath":"ArthurTony.png"
+    },
+    {
+      "id": "3",
+      "firstName": "Edna",
+      "lastName": "Kaplensky",
+      "password": "dksjfkldsj",
+      "email": "IgorKap@gmail.com",
+      "age": 30,
+      "picturePath":"EdnaKaplensky.png"
+    },
+    {
+      "id": "4",
+      "firstName": "Arthur",
+      "lastName": "Kaplensky",
+      "password": "dksjfkldsj",
+      "email": "ArthurKap@gmail.com",
+      "age": 32,
+      "picturePath":"ArthurKaplensky.png"
+    },
+    {
+      "id": "5",
+      "firstName": "Elton",
+      "lastName": "John",
+      "password": "dksjfkldsj",
+      "email": "EltonJohn@gmail.com",
+      "age": 66,
+      "picturePath":"EltonJohn.png"
+    }
+  ],
+  "compagnies": [
+    {
+      "id": 10,
+      "name": "Apple",
+      "description": "Apple Inc."
+    },
+    {
+      "id": 20,
+      "name": "Google",
+      "description": "Google Inc."
+    },
+    {
+      "id": 30,
+      "name": "Microsoft",
+      "description": "Microsoft Inc."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+:host {
+    display: block;
+    margin: 30px auto;
+    width: 800px;
+}
+
+.col-md-5 {
+    display: flex;
+    top: 30px;
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
